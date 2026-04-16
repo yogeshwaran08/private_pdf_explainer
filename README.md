@@ -91,7 +91,7 @@ venv\Scripts\activate
 source venv/bin/activate
 
 # Install dependencies
-pip install streamlit langchain langchain-community pypdf chromadb ollama
+pip install -r requirements.txt
 ```
 
 ### Step 4: Run the Application

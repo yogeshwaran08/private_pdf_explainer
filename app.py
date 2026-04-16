@@ -8,8 +8,8 @@ from langchain_community.vectorstores import Chroma
 from langchain_community.llms import Ollama
 from langchain.chains import RetrievalQA
 
-st.set_page_config(page_title="PDF Chat Assistant", layout="wide")
-st.title("PDF Chat Assistant")
+st.set_page_config(page_title="Private PDF Chat Assistant", layout="wide")
+st.title("Private PDF Chat Assistant")
 st.markdown("Upload a PDF and ask questions about its content!")
 
 if "vectorstore" not in st.session_state:
